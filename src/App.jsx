@@ -42,7 +42,7 @@ function App() {
         <Textcomponents color={color} />
         <Html fullscreen>
           <div style={{width:'100%',display:'flex',height:'100dvh',flexDirection:'column',justifyContent:'space-between'}}>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", }}>
               <div
                 style={{
                   flex: "1 1 100px",
@@ -123,7 +123,7 @@ function RotatingTorus({ color }) {
       rotation={[-1, 0.4, 0]}
       position={[0.3, 0.3, 0]}
       args={[2.7, 0.4, 13, 16]}
-      scale={viewport.width > 8 ? viewport.width * 0.06 : viewport.width * 0.2}
+      scale={viewport.width > 8 ? viewport.width * 0.06 : viewport.width * 0.17}
     >
       <meshLambertMaterial color={color} wireframe />
     </Torus>
