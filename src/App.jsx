@@ -77,7 +77,7 @@ function App() {
               />
             </div>
             <div style={{display:'flex',textAlign:'center',width:'100%',alignItems:'center',justifyContent:'center'}}>
-              <span style={{fontSize:'calc(2vw + 1vh)',textAlign:'center'}}>Inspired by Lumecho
+              <span style={{fontSize:'calc(2vw + 1vh)',textAlign:'center',color:'black'}}>Inspired by Lumecho
               </span>
             </div>
           </div>
